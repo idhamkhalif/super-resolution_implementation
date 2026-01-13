@@ -29,6 +29,13 @@ The following state-of-the-art SR models are evaluated:
 The implementations are adapted from publicly available repositories to support edge deployment and real-time inference.
 
 ---
+## Dataset Availability
+
+The dataset used in this project consists of real images captured using an ESP32-CAM in an agricultural monitoring setup. 
+Due to data usage considerations, the dataset is not publicly released. 
+However, it can be made available for academic and research purposes upon reasonable request by contacting the corresponding author.
+
+---
 
 ## ⚙️ System Configuration
 
@@ -40,7 +47,6 @@ The implementations are adapted from publicly available repositories to support 
   - CPU (baseline comparison)
 
 ---
-.
 
 ## 🔁 Reproducibility and Online Resources
 
@@ -56,3 +62,4 @@ ESPCN (PyTorch)
 https://github.com/Lornatang/ESPCN-PyTorch
 
 All experiments were conducted using real low-resolution images captured with ESP32-CAM. Training configurations, inference procedures, and deployment settings are described in detail in the accompanying paper.
+For
